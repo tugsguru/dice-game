@@ -93,7 +93,7 @@ document.querySelector(".btn-hold").addEventListener("click",function(){
       //delgets deer onoog uurchilnu
       document.getElementById("score-"+activePlayer).textContent=scores[activePlayer];
 
-    if(scores[activePlayer]>=20){
+    if(scores[activePlayer]>=50){
 
         isNewGame=false;
 
